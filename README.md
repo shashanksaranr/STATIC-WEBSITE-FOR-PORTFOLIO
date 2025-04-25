@@ -27,12 +27,12 @@ CSS was used extensively to design the user interface and ensure a consistent vi
 JavaScript was incorporated to add dynamic behavior to the static site. I used it to handle form validation on the contact page, implement scroll animations, and create a smooth navigation experience. Additionally, I added a toggle feature for dark and light themes, giving users the ability to customize their viewing experience. JavaScript enhanced the overall user interactivity without relying on backend technologies, staying within the scope of a static website.
 
 #Key Features Implemented:
-->Landing Page with a professional introduction, name, role, and a call-to-action button to download the resume.
-->About Me Section with a brief biography, background, and a photo.
-->Skills Section displaying my technical proficiency in various programming languages, frameworks, and tools.
-->Projects/Portfolio Section where I presented my recent projects, each with a title, short description, technologies used, and links to GitHub.
-->Contact Form that captures the user's name, email, with JavaScript used for front-end validation.
-->Responsive Navigation Menu with smooth scrolling to sections.
+1. Landing Page with a professional introduction, name, role, and a call-to-action button to download the resume.
+2. About Me Section with a brief biography, background, and a photo.
+3. Skills Section displaying my technical proficiency in various programming languages, frameworks, and tools.
+4. Projects/Portfolio Section where I presented my recent projects, each with a title, short description, technologies used, and links to GitHub.
+5. Contact Form that captures the user's name, email, with JavaScript used for front-end validation.
+6. Responsive Navigation Menu with smooth scrolling to sections.
 
 #Design Philosophy:
 The design followed modern web development practices emphasizing simplicity, accessibility, and responsiveness. I used a minimal color palette, consistent spacing, and readable fonts to maintain clarity. The layout was designed to guide the user’s attention smoothly from top to bottom, presenting information in a logical and user-centric manner.

@@ -35,4 +35,5 @@ JavaScript was incorporated to add dynamic behavior to the static site. I used i
 6. Responsive Navigation Menu with smooth scrolling to sections.
 
 #Design Philosophy:
+
 The design followed modern web development practices emphasizing simplicity, accessibility, and responsiveness. I used a minimal color palette, consistent spacing, and readable fonts to maintain clarity. The layout was designed to guide the user’s attention smoothly from top to bottom, presenting information in a logical and user-centric manner.

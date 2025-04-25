@@ -18,7 +18,7 @@ As part of the CodTech internship, I designed and developed a static website for
 
 #Tools and Technologies Used:
 1. HTML (HyperText Markup Language)
-HTML was used as the backbone of the website. I structured the entire content into semantic elements such as <header>, <nav>, <section>, and <footer> to maintain clean and readable code. These tags helped create the layout for the landing page, about me section, skills, portfolio/projects, and contact form. HTML provided the essential structure that was styled and enhanced using CSS and JavaScript.
+HTML was used as the backbone of the website. I structured the entire content into semantic elements to maintain clean and readable code. These tags helped create the layout for the landing page, about me section, skills, portfolio/projects, and contact form. HTML provided the essential structure that was styled and enhanced using CSS and JavaScript.
 
 2. CSS (Cascading Style Sheets)
 CSS was used extensively to design the user interface and ensure a consistent visual theme throughout the site. I implemented flexbox and grid layout systems to arrange elements responsively, ensuring that the website adapts well to various screen sizes including desktops, tablets, and mobile phones. Styling included custom fonts, color schemes, hover effects, animations, and transitions to make the user experience more engaging. I also used media queries for responsive design, allowing the website to adjust layout and font sizes based on screen width.

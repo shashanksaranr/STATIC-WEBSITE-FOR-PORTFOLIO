@@ -47,7 +47,7 @@ The design followed modern web development practices emphasizing simplicity, acc
 
 <img width="1728" alt="Image" src="https://github.com/user-attachments/assets/32b5cc9d-c5bc-4e2c-983b-4629ac493670" />
 
-<img width="1728" alt="Image" src="https://github.com/user-attachments/assets/36e0e2b1-43d1-4e4e-936c-e5c8564ecbff" />
+<img width="1728" alt="Image" src="https://github.com/user-attachments/assets/32636e73-d781-49ef-b072-40006eeefafe" />
 
 <img width="1728" alt="Image" src="https://github.com/user-attachments/assets/acdccfca-949d-41bf-a412-ef71f3288ec7" />
 

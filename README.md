@@ -43,7 +43,7 @@ The design followed modern web development practices emphasizing simplicity, acc
 
 # Output:
 
-<img width="1728" alt="Image" src="https://github.com/user-attachments/assets/8a7f897f-79dc-4689-a77d-b09b0a803cc0" />
+<img width="1728" alt="Image" src="https://github.com/user-attachments/assets/527f0dd8-d8b4-452f-8c6d-a51534f42738" />
 
 <img width="1728" alt="Image" src="https://github.com/user-attachments/assets/32b5cc9d-c5bc-4e2c-983b-4629ac493670" />
 

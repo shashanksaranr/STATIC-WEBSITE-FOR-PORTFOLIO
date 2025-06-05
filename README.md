@@ -1,18 +1,5 @@
 # STATIC-WEBSITE-FOR-PORTFOLIO
 
-*COMPANY*: CODTECH IT SOLUTIONS
-
-*NAME*: SHASHANKSARAN R
-
-*INTERN ID*: CT4MVTZ
-
-*DOMAIN*: SOFTWARE DEVELOPMENT
-
-*DURATION*: 4 MONTHS (16 WEEKS)
-
-*MENTOR*: NEELA SANTOSH
-
-
 # Description:
 
 As part of the CodTech internship, I designed and developed a static website for a personal developer portfolio using HTML, CSS, and JavaScript. This portfolio website showcases my skills, projects, education, and contact information in a professional and visually appealing format. The main objective was to build a clean, responsive, and user-friendly interface that highlights my capabilities as a software developer and serves as a digital resume for potential employers or clients.

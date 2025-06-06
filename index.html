@@ -11,6 +11,8 @@
     <link rel="icon" href="assets/portfolio.png" sizes="32x32">
     <link rel="icon" href="assets/portfolio.png" sizes="48x48">
     <link rel="icon" href="assets/portfolio.png" sizes="64x64">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
   </head>
   <body>
 
@@ -86,7 +88,8 @@
         </div>
       </div>
     </section>
-    <section id="about">
+
+    <section id="about" data-aos="zoom-in">
       <p class="section__text__p1">Get To Know More</p>
       <h1 class="title">About Me</h1>
       <div class="section-container">
@@ -125,15 +128,9 @@
           </div>
         </div>
       </div>
-      <img
-  src="./assets/arrow.png"
-  alt="Arrow icon"
-  class="icon arrow"
-  onclick="document.querySelector('#experience').scrollIntoView({ behavior: 'smooth' })"
-/>
-
     </section>
-    <section id="experience">
+
+    <section id="experience" data-aos="zoom-in">
       <p class="section__text__p1">Explore My</p>
       <h1 class="title">Experience</h1>
       <div class="experience-details-container">
@@ -274,38 +271,74 @@
           </div>
         </div>
       </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="document.querySelector('#projects').scrollIntoView({ behavior: 'smooth' })"
-      />
-
     </section>
-    <section id="projects">
+
+    <section id="projects" data-aos="zoom-in">
       <p class="section__text__p1">Browse My Recent</p>
       <h1 class="title">Projects</h1>
       <div class="experience-details-container">
         <div class="about-containers">
+
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/project-1.png"
-                alt="Project 1"
+                src="./assets/project-7.png"
+                alt="Project 6"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">AirDraw Application</h2>
+            <h2 class="experience-sub-title project-title">Matrix Calculator</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/shashanksaranr/AIRDRAW'"
+                onclick="location.href='https://github.com/shashanksaranr/CODE-REFACTORING-AND-PERFORMANCE-OPTIMIZATION'"
               >
                 Github
               </button>
-
+              
             </div>
           </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-6.png"
+                alt="Project 6"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Inventory Management System</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/shashanksaranr/RESTFUL-API-DEVELOPMENT'"
+              >
+                Github
+              </button>
+              
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-5.png"
+                alt="Project 5"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Real Time Collaboration Tool</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/shashanksaranr/REAL-TIME-COLLABORATION-TOOL'"
+              >
+                Github
+              </button>
+              
+            </div>
+          </div>
+
           <div class="details-container color-container">
             <div class="article-container">
               <img
@@ -325,6 +358,27 @@
               
             </div>
           </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">AirDraw Application</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/shashanksaranr/AIRDRAW'"
+              >
+                Github
+              </button>
+
+            </div>
+          </div>
+
           <div class="details-container color-container">
             <div class="article-container">
               <img
@@ -364,19 +418,13 @@
               
             </div>
           </div>
-
-
+          
         </div>
       </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="document.querySelector('#contact').scrollIntoView({ behavior: 'smooth' })"
-      />
-
+  
     </section>
-    <section id="contact">
+
+    <section id="contact" data-aos="zoom-in">
       <p class="section__text__p1">Get in Touch</p>
       <h1 class="title">Contact Me</h1>
       <div class="contact-info-upper-container">
@@ -398,19 +446,30 @@
         </div>
       </div>
     </section>
+
     <footer>
       <nav>
         <div class="nav-links-container">
           <ul class="nav-links">
+            <li><a href="#profile">Home</a>
             <li><a href="#about">About</a></li>
             <li><a href="#experience">Experience</a></li>
             <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
       </nav>
       <p>© 2025 SHASHANKSARAN R. All rights reserved.</p>
     </footer>
+
     <script src="script.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init({
+      duration: 1000,
+      once: false
+      });
+</script>
   </body>
 </html>

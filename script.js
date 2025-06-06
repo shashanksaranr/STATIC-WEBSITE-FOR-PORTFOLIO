@@ -5,6 +5,7 @@ function toggleMenu() {
   if (icon) icon.classList.toggle("open");
 }
 
+
 window.addEventListener("load", () => {
   const bufferingScreen = document.getElementById("buffering-screen");
   if (!bufferingScreen) return;
@@ -26,4 +27,21 @@ window.addEventListener("load", () => {
     document.querySelector('#something')?.scrollIntoView({ behavior: 'smooth' });
   }
 });
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener("click", function (e) {
+    e.preventDefault();
+    const target = document.querySelector(this.getAttribute("href"));
+    if (!target) return;
+
+    const navHeight = 100; // Adjust this if your navbar height differs
+    const offsetTop = target.offsetTop - navHeight;
+
+    window.scrollTo({
+      top: offsetTop,
+      behavior: "smooth"
+    });
+  });
+});
+
 

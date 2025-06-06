@@ -101,3 +101,19 @@
     text-align: justify;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .about-containers {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  section {
+    padding: 2rem 1.5rem;
+    scroll-margin-top: 80px;
+  }
+}
+
+
